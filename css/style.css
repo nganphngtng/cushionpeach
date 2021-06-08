@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Maven Pro", sans-serif;
+    /* overflow: hidden; */
+    font-size: 16px;
+    color: #262e36;
+    line-height: 1;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    border: 0;
+    text-decoration: none;
+    background-color: #333333;
+    padding: 11px 10px 11px;
+}
+
+.blog-btn--detail {
+    text-transform: uppercase;
+    color: white;
+}
+
+#footer {
+    display: flex;
+    background-color: white;
+    padding: 5% 0;
+    margin-left: 60px;
+}
+
+.footer-column {
+    margin-right: 30px;
+}
+
+.footer-heading {
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #777777;
+    text-transform: uppercase;
+}
+
+.footer-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.footer-paragraph span {
+    font-weight: 600;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-link-item {
+    margin-bottom: 7px;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-weight: 400px;
+    color: #333333;
+}
+
+.footer-link:hover {
+    color: red;
+}
+
+.footer-social {
+    display: inline-flex;
+}
+
+.footer-social-link {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: #333333;
+    font-size: 25px;
+    border: 1px solid #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social-link:not(:last-child) {
+    margin-right: 15px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+h3{
+    font-size: 1.3rem;
+}
+
+#pd{
+    padding: 1% 0;
+}
+
+.product{
+    padding: 1% 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content{
+    margin-left: 0 auto;
+    padding: 60px;
+}
+
+.content p{
+    font-size: 1.3rem;
+    padding: 8px;
+}
+
+#mt{
+    padding: 100px;
+    margin: auto;
+}
+
+.container{
+    padding: 1% 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+p{
+    font-size: 1rem;
+}
+
+ul, li p{
+    font-size: 1rem;
+}
